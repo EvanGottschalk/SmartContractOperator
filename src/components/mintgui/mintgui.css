@@ -1,0 +1,189 @@
+.mintgui {
+  background-color: var(--color-offwhite);
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.mintGUIBoxTitle {
+  font-family: 'Sequel100Black-65';
+  flex-direction: vertical;
+  margin: 0px 0px -2% 0px;
+  padding: 1% 0px 0px 0px;
+  font-weight: 400;
+  font-size: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+.mintGUIBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: horizontal;
+  padding: 0px 0px 0px 0px;
+  margin: 4% 0px 0px 5%;
+  width: 90%;
+  gap: 1%;
+}
+
+.mintButtonImage {
+  width: 92%;
+  border-radius: 5%;
+}
+
+.mintGUIBoxSubTitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  color: var(--color-mintGUI);
+  background-color: var(--color-offwhite);
+}
+
+.LMNTLButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.mintGUIWalletButton {
+  width: 80%;
+  background-color: var(--color-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 12px;
+  color: var(--color-black);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20%;
+  font-family: 'Sequel100Black-65';
+  cursor: pointer;
+}
+
+.mintButtonBottom {
+  width: 20%;
+  margin-left: 40%;
+}
+
+.mintButtonBottomText {
+  text-decoration: none;
+  margin-top: -20%;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.mintButtonBottomImage {
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.mintButtonBottom,
+.mintButtonBottom,
+.LMNTLButton {
+  cursor: pointer;
+}
+
+.mintButtonBottom:hover,
+.mintButtonBottom:hover,
+.LMNTLButton:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.mintButtonBottom:active,
+.mintButtonBottom:active,
+.LMNTLButton:active {
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.mintGUIMobileButton {
+  display: none;
+}
+.MobileDN {
+  display: none;
+}
+.mintGUIMobile {
+  display: none;
+}
+
+.mintGUIMobileContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+  transition: z-index 1s linear;
+}
+
+.mintGUIMobileContainerActive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  overflow: hidden;
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .mintGUIBoxImage {
+    display: none;
+  }
+  .mintGUIBox {
+    margin-top: 30px;
+  }
+  .mintGUIBoxTitle {
+    margin: 0px 0px 0px 0px;
+    font-size: 48px;
+  }
+  .mintGUI {
+    padding: 0 20px;
+    margin: 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .mintGUI {
+    margin: 0px 0px 0px 0px;
+  }
+  /*.mintGUICenterBottom {
+    display: none;
+  }*/
+  .mintGUIBoxTitle {
+    font-size: 28px;
+  }
+}

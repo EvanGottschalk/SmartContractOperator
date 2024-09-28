@@ -1,0 +1,13 @@
+{
+    "name": "MVP Demo V0",
+    "rules": {
+        "go_back": "true"
+    },
+    "scenes": {
+        "0": {
+            "sname": "play_now",
+            "background": "banner-home.png",
+            "background_opacity": 1
+        }
+    }
+}

@@ -1,0 +1,209 @@
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.navbar {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  padding: .75% 0px .125% 0px;
+  margin: 0px 0px 0% 0px;
+  border-radius: 0px;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+.navbarContainer {
+  display: flex;
+  width: 100%;
+  max-width: 1920px;
+  
+  align-items: flex-end;
+  margin: 0px 0px 0px 0px;
+}
+
+.navbarLeft {
+  flex: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbarCenter {
+  margin: 0px 0px 0px 0px;
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: horizontal;
+  gap: 35px;
+}
+
+
+
+.navbarRight {
+  flex: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbarLogoImage {
+  width: 55%;
+  padding: 0% 0px 0px 0px;
+  margin: 0% 0% 1.5% 2%;
+}
+
+.navbarWalletButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0% 0px 0px 0px;
+  margin: 0% 10% 2.5% 0%;
+  border-radius: 12px;
+  color: var(--color-black);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20%;
+  font-family: 'Sequel100Black-65';
+  cursor: pointer;
+  z-index: 99999;
+}
+
+.navbarWalletButtonImage {
+  width: 45%;
+  padding: 0% 0px 0px 0px;
+  margin: 0% 0% 0% 20%;
+}
+
+.navbarWalletButtonText {
+  padding: 0% 0px 0px 0px;
+  margin: 0% 0% 0% -48%;
+  color: #ffffff;
+}
+
+
+.navbarButton {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0px 35px 0px 0px;
+  white-space: nowrap;
+  line-height: 24px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+.navbarButton1 {
+  padding: 15% 15% 15% 15%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbarButton2 {
+  padding: 15% 15% 15% 15%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbarButton3 {
+  padding: 15% 15% 15% 15%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbarButton4 {
+  padding: 15% 15% 15% 15%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbarButton5 {
+  padding: 15% 15% 15% 15%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbarLogoImage:hover,
+.navbarButton:hover,
+.navbarWalletButton:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.navbarLogoImage:active,
+.navbarButton:active,
+.navbarWalletButton:active {
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+
+.navbarMobileButton {
+  display: none;
+}
+.MobileDN {
+  display: none;
+}
+.navbarMobile {
+  display: none;
+}
+
+.navbarMobileContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+  transition: z-index 1s linear;
+}
+
+.navbarMobileContainerActive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1100px) {
+  .navbarBoxImage {
+    display: none;
+  }
+  .navbarBox {
+    margin-top: 30px;
+  }
+  .navbarBoxTitle {
+    margin: 0px 0px 0px 0px;
+    font-size: 48px;
+  }
+  .navbar {
+    padding: 0 20px;
+    margin: 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .navbar {
+    margin: 0px 0px 0px 0px;
+  }
+  /*.navbarCenterBottom {
+    display: none;
+  }*/
+  .navbarBoxTitle {
+    font-size: 28px;
+  }
+}

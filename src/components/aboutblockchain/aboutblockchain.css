@@ -1,0 +1,120 @@
+.storyGUI {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 100px 0px 0px 10%;
+  width: 80%;
+}
+
+.storyGUILeft {
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.storyGUIBox {
+  border-radius: 12px;
+  width: 100%;
+}
+
+
+.storyGUITextContainer {
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  margin: 0px 0px 40% 0px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--color-offwhite);
+  max-width: 600px;
+}
+
+.storyGUITitle {
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0px 0px 30px 0px;
+  line-height: 94.8%;
+  text-align: left;
+  color: var(--color-black);
+}
+
+.storyGUIText {
+  max-width: 700px;
+  text-align: left;
+  color: var(--color-black);
+}
+
+.storyGUIButtonContainer {
+  margin: -30% 0px 0px -6%;
+  max-width: 700px;
+  display: flex;
+  align-items: left;
+}
+
+.storyGUIButton {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  overflow: hidden;
+}
+
+.storyGUIRight {
+  flex: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.storyGUIBoxIMG {
+  width: 99.5%;
+  border-radius: 25px;
+}
+
+.storyGUIButtonContainer:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.storyGUIButtonContainer:active {
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+
+@media only screen and (max-width: 1400px) {
+  .storyGUIBoxIMG {
+    width: 100%;
+  }
+  .storyGUI {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+  }
+  .storyGUIBox {
+    border-radius: 12px;
+    width: 100%;
+    max-width: 630px;
+  }
+  .storyGUIRight {
+    align-items: center;
+    justify-content: center;
+  }
+  .storyGUIRightBottom {
+    max-width: 630px;
+    height: fit-content;
+  }
+  .storyGUITextContainer {
+    margin-top: 50px;
+  }
+}

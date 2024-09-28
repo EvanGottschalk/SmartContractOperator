@@ -1,0 +1,16 @@
+{
+    "0": {
+        "name": "Space 1",
+        "sname": "space_1",
+        "hash": {
+            "NFT_Storage": "bafybeih537z4sok7uzsc3jgwl2lk5f6dcxeckli3sbukgledq5kg5fi7lu/0.png"
+        } 
+    },
+    "1": {
+        "name": "Planet Under Attack 1",
+        "sname": "planet_under_attack_1",
+        "hash": {
+            "NFT_Storage": "bafybeidqc6kpotfseeqvhujtdd2gi2ed4lvativvvb4umjudvg7idagf3q/1.png"
+        } 
+    }
+}

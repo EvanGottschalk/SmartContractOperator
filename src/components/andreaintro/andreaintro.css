@@ -1,0 +1,60 @@
+.andreaIntro {
+  margin: 0% 0% -8.5% 0%;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7% 0% 0% 0%;
+  overflow: hidden;
+  background-color: var(--color-offwhite);
+}
+
+
+
+.andreaIntroBannerImage {
+  object-fit: cover;
+  max-height: 124.25vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  border-radius: 0px;
+}
+
+.andreaIntroButtonContainer {
+  max-height: 26px;
+  margin: -10.125% 0% 11.15% 22.4%;
+}
+
+.andreaIntroButtonImage {
+  margin: .3% 0% 0% 0%;
+  max-height: 5.3vh;
+  cursor: pointer;
+}
+
+
+
+.andreaIntroButtonImage:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.andreaIntroButtonImage:active {
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+  .andreaIntro {
+    width: 100%;
+  }
+}

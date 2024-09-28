@@ -1,0 +1,157 @@
+.avatarInfo {
+  background-color: var(--color-offwhite);
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.avatarInfoContainer {
+  background-color: var(--color-black);
+  text-align: center;
+  display: flex;
+  margin: 2% 20% 5% 20%;
+  border-radius: 25px;
+  color: #F8700C;
+  border: solid;
+  border-width: 15px;
+}
+
+.avatarInfoBackground {
+  width: 0%;
+  height: 0%;
+}
+
+.avatarInfoLeft {
+  width: 50%;
+  
+}
+
+.avatarImage {
+  width: 100%;
+}
+
+.userAvatar {
+  max-height: 500px;
+  margin: 0px 0px -4px 0px;
+}
+
+.avatarInfoRight {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.avatarInfoStats {
+  line-height: 160%;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0px 0px 0% 10%;
+}
+
+.avatarInfoLinkBox {
+  margin: 7% 0% 9.5% 20%;
+  padding: 0% 0% 0% 0%;
+  
+}
+
+
+.avatarInfoOpenSeaButton {
+  padding: 0% 0% 0% 0%;
+  margin: 0% 0% 0% 0%;
+}
+
+
+
+.avatarInfoOpenSeaLink {
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: 16px;
+  text-align: center;
+  border: solid;
+  border-radius: 12px;
+  padding: 8px 35px 13px 35px;
+  transition: height 0.5s; 
+  -webkit-transition: height 0.5s;
+  box-shadow:0 0 15px 5px #ffa411;
+  background-color: #F8700C;
+  width: 50%;
+}
+
+
+
+.avatarInfoOpenSeaButton:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.avatarInfoOpenSeaButton:active {
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.avatarInfoMobileButton {
+  display: none;
+}
+.MobileDN {
+  display: none;
+}
+.avatarInfoMobile {
+  display: none;
+}
+
+.avatarInfoMobileContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+  transition: z-index 1s linear;
+}
+
+.avatarInfoMobileContainerActive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  overflow: hidden;
+}
+
+
+
+
+@media only screen and (max-width: 1100px) {
+  .avatarInfoBoxImage {
+    display: none;
+  }
+  .avatarInfoBox {
+    margin-top: 30px;
+  }
+  .avatarInfoBoxTitle {
+    margin: 0px 0px 0px 0px;
+    font-size: 48px;
+  }
+  .avatarInfo {
+    padding: 0 20px;
+    margin: 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .avatarInfo {
+    margin: 0px 0px 0px 0px;
+  }
+  /*.avatarInfoCenterBottom {
+    display: none;
+  }*/
+  .avatarInfoBoxTitle {
+    font-size: 28px;
+  }
+}

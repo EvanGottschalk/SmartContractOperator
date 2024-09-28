@@ -1,0 +1,86 @@
+.gameGUI {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.gameGUIContainer {
+  margin-bottom: 8%; 
+}
+
+.gameSceneContainer {
+  margin: 0% 0% 0% 16%;
+  padding: 0% 0% 0% 0%;
+  width: 68%;
+  position: relative;
+}
+
+
+.backgroundImage {
+  display: block;
+  position: relative;
+  object-fit: cover;
+  z-index: 0;
+  width: 100%;
+}
+
+
+.playerGameInterfaceContainer {
+  position: absolute;
+  top: 49%;
+  left: 1.8%;
+}
+
+.playerGameInterfaceImage {
+  height: 33vh;
+}
+
+.playerGameInterfaceCursorsContainer {
+  position: absolute;
+  top: 16.25%;
+  left: 7%;
+}
+
+.playerGameInterfaceCursorImage {
+  margin: 0% 0% 2.5% 0%;
+  height: 5.8vh;
+  cursor: pointer;
+}
+
+.walletCursorContainer {
+  position: absolute;
+  top: 70%;
+  left: 72.75%;
+}
+
+.claimCursorContainer {
+  position: absolute;
+  top: 68%;
+  left: 36%;
+}
+
+.expAnimation {
+  margin: 0% 0% 0% 0%;
+  position: absolute;
+  top: 10.5%;
+  left: 55.3%;
+  height: 250px;
+}
+
+
+.playerGameInterfaceCursorImage:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.playerGameInterfaceCursorImage:active {
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+
+
+

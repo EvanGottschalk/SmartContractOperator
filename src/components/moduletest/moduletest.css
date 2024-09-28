@@ -1,0 +1,184 @@
+.moduletest {
+  background-color: var(--color-offwhite);
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moduleTestContainer {
+  background-color: var(--color-offwhite);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.moduleTestBoxTitle {
+  font-family: 'Sequel100Black-65';
+  margin: 0px 0px 0px 0px;
+  padding: 2% 0px 0px 0px;
+  font-weight: 400;
+  font-size: 60px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-offwhite);
+}
+
+
+.moduleTestCenter {
+  background-color: var(--color-offwhite);
+}
+
+.moduleTestBox {
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-offwhite);
+  padding: 0px 0px 0px 0px;
+  margin: 4% 0px 0px 5%;
+  width: 90%;
+  gap: 1%;
+}
+
+.moduleTestText {
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  margin: 2% 0% 3% 25%;
+  color: #353535;
+  font-size: 21px;
+  font-weight: 100;
+  width: 50%;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.moduleTestImage {
+  width: 92%;
+  border-radius: 5%;
+}
+
+.moduleTestBoxSubTitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  color: var(--color-moduleTest);
+  background-color: var(--color-offwhite);
+}
+
+.moduleTestBottom {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.moduleTestEvolveButtonImage {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.moduleTestEvolveButtonText {
+  margin-top: -21%;
+  font-size: 22px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.moduleTestBottom {
+  width: 20%;
+  margin-left: 40%;
+}
+
+.moduleTestEvolveButton:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.moduleTestEvolveButton:active {
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.moduleTestMobileButton {
+  display: none;
+}
+.MobileDN {
+  display: none;
+}
+.moduleTestMobile {
+  display: none;
+}
+
+.moduleTestMobileContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+  transition: z-index 1s linear;
+}
+
+.moduleTestMobileContainerActive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  overflow: hidden;
+}
+
+
+
+
+@media only screen and (max-width: 1100px) {
+  .moduleTestBoxImage {
+    display: none;
+  }
+  .moduleTestBox {
+    margin-top: 30px;
+  }
+  .moduleTestBoxTitle {
+    margin: 0px 0px 0px 0px;
+    font-size: 48px;
+  }
+  .moduleTest {
+    padding: 0 20px;
+    margin: 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .moduleTest {
+    margin: 0px 0px 0px 0px;
+  }
+  /*.moduleTestCenterBottom {
+    display: none;
+  }*/
+  .moduleTestBoxTitle {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,28 @@
+/*1st background1.png*/
+/*.background1 {
+  object-fit: fill;
+  width: 203%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: -50px 0px -3900px 0px;
+}*/
+
+.background1 {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  margin: 0px 0px 0px 0px;
+}
+
+
+@media only screen and (max-width: 1400px) {
+  .background1 {
+    width: 100%;
+  }
+}

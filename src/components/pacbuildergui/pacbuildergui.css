@@ -1,0 +1,451 @@
+.pacbuilder {
+  background-color: var(--color-offwhite);
+  display: flex;
+  justify-content: left;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: left;
+  justify-items: left;
+}
+
+
+.pacbuilderBoxTitle {
+  font-family: 'Sequel100Black-65';
+  flex-direction: vertical;
+  margin: 0px 0px -2% 0px;
+  padding: 1% 0px 0px 0px;
+  font-weight: 400;
+  font-size: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+.pacbuilderBox {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: horizontal;
+  padding: 0px 0px 0px 0px;
+  margin: 4% 0px 0px 5%;
+  width: 90%;
+  gap: 1%;
+}
+
+.mintButtonImage {
+  width: 92%;
+  border-radius: 5%;
+}
+
+.pacbuilderBoxSubTitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  color: var(--color-pacbuilder);
+  background-color: var(--color-offwhite);
+}
+
+.LMNTLButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.pacbuilderWalletButton {
+  width: 80%;
+  background-color: var(--color-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 12px;
+  color: var(--color-black);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20%;
+  font-family: 'Sequel100Black-65';
+  cursor: pointer;
+}
+
+.mintButtonBottom {
+  width: 20%;
+  margin-left: 40%;
+}
+
+.mintButtonBottomText {
+  text-decoration: none;
+  margin-top: -20%;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.mintButtonBottomImage {
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.mintButtonBottom,
+.mintButtonBottom,
+.LMNTLButton,
+.saveButton,
+.newButton {
+  cursor: pointer;
+}
+
+.mintButtonBottom:hover,
+.mintButtonBottom:hover,
+.LMNTLButton:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.mintButtonBottom:active,
+.mintButtonBottom:active,
+.LMNTLButton:active {
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.pacbuilderMobileButton {
+  display: none;
+}
+.MobileDN {
+  display: none;
+}
+.pacbuilderMobile {
+  display: none;
+}
+
+.pacbuilderMobileContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+  transition: z-index 1s linear;
+}
+
+.pacbuilderMobileContainerActive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  overflow: hidden;
+}
+
+/* +++ +++ Birth Info Form +++ +++ */
+
+.birthInfoForm {
+  width: 35%;
+  padding: 35px 50px 35px 50px;
+  margin: 40px 0px 0px 0px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F7F5ED;
+}
+
+.birthInfoTitle {
+  font-weight: 400;
+  font-size: 50px;
+  margin: -10px 0px 20px 0px;
+  line-height: 94.8%;
+  text-align: center;
+  color: var(--color-main);
+}
+
+.birthInfoSubtitle {
+  color: var(--color-lightyellow);
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+/* +++ Birthday Entry +++ */
+
+.birthdayInputContainer {
+  justify-items: left;
+  width: 100%;
+}
+
+.birthdayTitle {
+  color: #000000;
+  margin: 20px 0px 10px 0px;
+  font-size: 20px;
+}
+
+.birthDayEntry {
+  padding: 0px 0px 0px 0px;
+  width: 52px;
+  font-size: 20px;
+  margin: 0px 6px 0px 0px;
+}
+
+.birthMonthSelect {
+  padding: 0px 0px 1px 0px;
+  width: 118px;
+  font-size: 20px;
+  margin: 0px 6px 0px 0px;
+}
+
+.birthYearEntry {
+  padding: 0px 0px 0px 0px;
+  width: 58px;
+  font-size: 20px;
+}
+
+/* +++ Birth Time Entry +++ */
+
+.birthTimeInputContainer {
+  margin: 20px 0px 0px 0px;
+  justify-items: left;
+  width: 100%;
+}
+
+.birthTimeTitle {
+  color: #000000;
+  margin: 0px 0px 5px 0px;
+  font-size: 20px;
+}
+
+.timeGuessText {
+  color: #bbbbbb;
+  margin: 0px 0px 5px 10px;
+  font-size: 15px;
+}
+
+.birthTimeUnknown {
+  margin-top: 10px;
+}
+
+.timeUnknownLabel {
+  color: var(--color-lightyellow);
+}
+
+.birthHourSelect {
+  padding: 0px 0px 1px 0px;
+  width: 46px;
+  font-size: 20px;
+  margin: 10px 0px 0px 0px;
+}
+
+.colon {
+  color: #000000;
+  margin: 0px 0px 5px 0px;
+  font-size: 20px;
+}
+
+.birthMinuteEntry {
+  padding: 0px 0px 0px 0px;
+  width: 42px;
+  font-size: 20px;
+  margin: 0px 6px 0px 0px;
+}
+
+.birthAMPMSelect {
+  padding: 0px 0px 1px 0px;
+  width: 54px;
+  font-size: 20px;
+}
+
+/* +++ Birth Location Entry +++ */
+
+.birthLocationInputContainer {
+  margin: 20px 0px 0px 0px;
+  justify-items: left;
+  width: 100%;
+}
+
+.birthLocationTitle {
+  color: #000000;
+  margin: 0px 0px 5px 0px;
+  font-size: 20px;
+}
+
+.locationGuessText {
+  color: #bbbbbb;
+  margin: 0px 0px 5px 10px;
+  font-size: 15px;
+}
+
+.birthLocationUnknown {
+  margin-top: 10px;
+}
+
+.locationUnknownLabel {
+  color: var(--color-lightyellow);
+}
+
+.birthCountrySelect {
+  padding: 0px 0px 1px 0px;
+  width: 120px;
+  height: 25px;
+  font-size: 16px;
+  margin: 10px 6px 0px 0px;
+}
+
+.birthStateSelect {
+  padding: 0px 0px 1px 0px;
+  width: 120px;
+  height: 25px;
+  font-size: 16px;
+  margin: 0px 6px 0px 0px;
+}
+
+.birthCitySelect {
+  padding: 0px 0px 1px 0px;
+  width: 120px;
+  height: 25px;
+  font-size: 16px;
+}
+
+/* +++ Input Validity Message +++ */
+
+.validityMessage {
+  color: var(--color-warningred);
+  margin: 10px 0px -20px 0px;
+}
+
+/* --- --- Birth Info Form --- --- */
+
+
+
+
+
+
+
+
+/* +++ +++ PAC GUI +++ +++ */
+
+/* +++ File & Scene Select +++ */
+
+.PACselect {
+  padding: 0px 0px 1px 0px;
+  width: 128px;
+  font-size: 20px;
+  margin: 0px 6px 0px 0px;
+}
+
+.sceneSelect {
+  padding: 0px 0px 1px 0px;
+  width: 156px;
+  font-size: 20px;
+  margin: 0px 6px 0px 0px;
+}
+
+.backgroundSelect {
+  padding: 0px 0px 1px 0px;
+  width: 96px;
+  font-size: 20px;
+  margin: 0px 6px 0px 0px;
+}
+
+.sceneSelect {
+  padding: 0px 0px 1px 0px;
+  width: 156px;
+  font-size: 20px;
+  margin: 0px 6px 0px 0px;
+}
+
+.saveButton {
+  color: #ffffff;
+  padding: 1px 6px 6px 6px;
+  border-radius: 8px;
+  border-color:  #000000;
+  border-width: 325px;
+  background-color: #35c230;
+}
+
+.newButton {
+  color: #ffffff;
+  padding: 1px 6px 6px 6px;
+  margin: 0% 1% 0% 0%;
+  border-radius: 8px;
+  border-color:  #000000;
+  border-width: 325px;
+  background-color: #c2b830;
+}
+
+
+
+
+
+/* +++ Insert Element +++ */
+
+.insertOptions {
+  width: 30%;
+  padding: 35px 50px 35px 50px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 25px;
+  background-color: #F7F5ED;
+  
+}
+
+.characterSelect {
+  padding: 0px 0px 1px 0px;
+  width: 96px;
+  font-size: 20px;
+  margin: 0px 6px 0px 0px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+  .pacbuilderBoxImage {
+    display: none;
+  }
+  .pacbuilderBox {
+    margin-top: 30px;
+  }
+  .pacbuilderBoxTitle {
+    margin: 0px 0px 0px 0px;
+    font-size: 48px;
+  }
+  .pacbuilder {
+    padding: 0 20px;
+    margin: 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .pacbuilder {
+    margin: 0px 0px 0px 0px;
+  }
+  /*.pacbuilderCenterBottom {
+    display: none;
+  }*/
+  .pacbuilderBoxTitle {
+    font-size: 28px;
+  }
+}

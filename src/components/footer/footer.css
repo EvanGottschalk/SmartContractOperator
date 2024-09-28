@@ -1,0 +1,132 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 0px 0px 0% 0%;
+  padding: 7% 0px 2% 0%;
+  width: 100%;
+  background-color: var(--color-black);
+}
+
+.footerLeft {
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin: -3% 0% 0px 5%;
+}
+
+.footerBox {
+  width: 100%;
+  margin: 0px 0px 0% 0px;
+}
+
+.footerSocialsContainer {
+  margin: 0px 0px 5% 13%;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.footerRight {
+  flex: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footerTextContainer {
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  margin: 0px 0px 0% 0px;
+  display: flex;
+  align-items: top;
+  justify-content: top;
+  color: var(--color-white);
+  gap: 60px;
+}
+
+.footerColumnTitle {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  margin: 0px 0px 0px 0px;
+  line-height: 100%;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.footerColumnItem {
+  margin: 20px 0px 0px 0px;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  line-height: 100%;
+  text-align: left;
+  color: #c3c3c3;
+  text-decoration: none;
+}
+
+.footerLinkColumn1 {
+  margin: 0px 0px 0px -5%;
+}
+
+.footerLinkColumn2 {
+  margin: 0px 0px 0px 5%;
+}
+
+.footerLogo {
+  width: 70%;
+}
+
+.footerSocialsLink:hover,
+.footerLogo:hover,
+.footerColumnItem:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.footerSocialsLink:active,
+.footerLogo:active,
+.footerColumnItem:active {
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+  .footerBoxIMG {
+    width: 100%;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+  }
+  .footerBox {
+    border-radius: 12px;
+    width: 100%;
+    max-width: 630px;
+  }
+  .footerRight {
+    align-items: center;
+    justify-content: center;
+  }
+  .footerRightBottom {
+    max-width: 630px;
+    height: fit-content;
+  }
+  .footerTextContainer {
+    margin-top: 50px;
+  }
+}

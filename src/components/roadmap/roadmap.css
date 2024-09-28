@@ -1,0 +1,54 @@
+.roadmap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  padding: 30px 0px 30px 0px;
+  margin: 0px 320px 0px 320px;
+  border-radius: 25px;
+}
+
+.roadmapTitle {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 94.8%;
+  text-align: center;
+}
+
+.roadmapSubTitle {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.roadmapList {
+  margin-top: 50px;
+  max-width: 550px;
+}
+
+.roadmapItemLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.roadmapItemRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.roadmapIcon {
+  filter: invert(42%) sepia(43%) saturate(80%) hue-rotate(37deg) brightness(100%) contrast(319%);
+}
+
+.roadmapText {
+  margin-left: 30px;
+  color: var(--color-lightyellow);
+}
+
+@media only screen and (max-width: 800px) {
+  .roadmapTitle {
+    font-size: 48px;
+  }
+}
