@@ -105,9 +105,8 @@ Although this list of common transaction types is small, they can all be impleme
 
 ### Built With
 
-* [MetaBoss](https://metaboss.rs/) - this amazing library provides functions for creating and interacting with SPL tokens
-* [@solana/web3.js](https://solana-labs.github.io/solana-web3.js/) - this library provides fundamental tools for interacting with the Solana blockchain
-
+* [Ethers.js](https://docs.ethers.org/v5/)
+* [React](https://react.dev/)
 
 
 
