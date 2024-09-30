@@ -1,16 +1,3 @@
-<!--
-*** Do a search and replace for the following:
-*** EvanGottschalk, SmartContractOperator, EvanOnEarth_eth, evan.blockchain@gmail.com, A library for simplifying web3 transactions
--->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -33,7 +20,7 @@
   <h3 align="center">SmartContractOperator</h3>
 
   <p align="center">
-    A A library for simplifying web3 transactions
+    A library for simplifying web3 transactions
     <br />
     <a href="https://github.com/EvanGottschalk/SmartContractOperator"><strong>Explore the docs »</strong></a>
     <br />
@@ -95,9 +82,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-`SmartContractOperator` is a A library for simplifying web3 transactions
+`SmartContractOperator` is a library for simplifying web3 transactions.
 
-MORE_DESCRIPTION
+Interactions with smart contracts can vary widely in their execution and purpose. However, in real world implementations, there are only a handful of common types of transactions, such as a `mint` transaction. These few types of transactions account for 99% of blockchain activity.
+
+Although this list of common transaction types is small, they can all be implemented and customized in myriad ways. All of these different nuances and details can make it cumbersome and complicated to make the most fundamental transactions work in your code. This is where `SmartContractOperator` comes in.
+
+`SmartContractOperator` provides general structures and automated checks to make your life easier, allowing you to easily get your most important transactions working seamlessly and consistently. With `SmartContractOperator`, you can treat all sorts of different `mint` functions as though they are the same, instead of needing to write new code every single time. 
 
 
 <a href="https://github.com/EvanGottschalk/SmartContractOperator">
