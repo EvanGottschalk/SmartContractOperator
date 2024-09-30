@@ -136,7 +136,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-`SmartContractOperator` requires Node version 18.19.0 or later.
+`SmartContractOperator` requires Node version 16.13.1 or later.
 
 
 
@@ -161,14 +161,13 @@ To get a local copy up and running follow these simple steps.
    ```
    yarn install
    ```
-4. Install Metaboss
-   ```
-   yarn install metaboss
-   ```
+4. Update smart contract options with `address` and `network` information for smart contracts you want to interact with
 5. Run the program
    ```
-   npx run scripts/SmartContractOperator.js
+   yarn start
    ```
+6. In the browser, connect your web wallet such as MetaMask
+7. Use the UI to execute web3 transactions
 
 
 
