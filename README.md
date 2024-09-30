@@ -181,15 +181,9 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-After getting the program running, you can use a test wallet address, or the address from your web wallet. To use your web wallet, first get the private key, and then derive the keypair array using `SmartContractOperator`
+To take advantage of the `SmartContractOperator` in your own projects, add `SmartContractOperator.js` and `SmartContractContext.js` to your projects' `scripts` folders. Then, you can start importing and using its functions in the rest of your code!
 
-Once you have your keypair file, you are ready to go! `SmartContractOperator` can be used to mint NFTs and fungible tokens on Solana's mainnet and devnet.
-
-On devnet, you can use `SmartContractOperator` to request an airdrop and start minting!
-
-On mainnet, you will have to first deposit some SOL into your wallet before you can start minting with `SmartContractOperator`.
-
-
+Or, if you want to simply run a few smart contract transations, you can run `SmartContractOperator` on its own to display the Smart Contract UI. This UI makes it quick and easy to execute transactions, which is particularly handy for testing.
 
 
 <br>
@@ -205,9 +199,9 @@ See the [open issues](https://github.com/EvanGottschalk/SmartContractOperator/is
 
 ### Upcoming Features
 
-* feature_1
-* feature_2
-* feature_3
+* UI updates
+* Solana integration
+* More automation & error handling
 
 
 
